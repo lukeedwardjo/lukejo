@@ -2,16 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="grid place-items-center h-screen">
-      <div>
-        <div>Luke Johnson</div>
-        <ul>
-          <li>
-            <a href="https://twitter.com/lukeedwardjo">Twitter</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <div className=" max-w-md bg-gradient-to-r from-indigo-500 ml-10">test</div>
   );
 }
 
