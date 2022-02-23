@@ -8,7 +8,7 @@ function App() {
         <div className="text-lew-blue text-5xl flex items-center justify-center font-bold">
           Luke&nbsp;Johnson
         </div>
-        <ul className="list-disc text-black flex items-center justify-center mt-6">
+        <ul className="list-disc text-black flex mt-6">
           <li>
             <a href="https://twitter.com/lukeedwardjo">follow me on twitter</a>
           </li>
