@@ -8,11 +8,14 @@ function App() {
         <div className="text-lew-blue text-5xl flex items-center justify-center font-bold">
           Luke&nbsp;Johnson
         </div>
-        <ul className="list-disc text-black flex mt-6">
-          <li>
-            <a href="https://twitter.com/lukeedwardjo">follow me on twitter</a>
-          </li>
-        </ul>
+        <div className="flex items-center justify-center mt-3">
+          <a href="https://twitter.com/lukeedwardjo">twitter</a>
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://lukeedwardjo.substack.com/p/coming-soon?showWelcome=true&utm_source=url">
+            blog
+          </a>
+          &nbsp;&nbsp;|&nbsp; about
+        </div>
       </div>
       <div className="flex-auto"></div>
     </div>
