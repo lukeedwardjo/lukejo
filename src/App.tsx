@@ -11,7 +11,7 @@ function App() {
         <div className="flex items-center justify-center mt-3">
           <a href="https://twitter.com/lukeedwardjo">twitter</a>
           &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href="https://lukeedwardjo.substack.com/p/coming-soon?showWelcome=true&utm_source=url">
+          <a href="https://lukejo.substack.com/p/coming-soon?showWelcome=true&utm_source=url">
             blog
           </a>
           &nbsp;&nbsp;|&nbsp; about
