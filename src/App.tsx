@@ -2,13 +2,13 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <span className="w-auto">test</span>
-      <span className="max-w-md h-vh bg-gradient-to-r from-indigo-500 m-auto">
-        content
-      </span>
-      <span className="w-auto">test</span>
-    </>
+    <div className="flex">
+      <div className="flex-auto"></div>
+      <div className="flex-auto w-64 place-content-center bg-indigo-900">
+        Luke Johnson
+      </div>
+      <div className="flex-auto"></div>
+    </div>
   );
 }
 
