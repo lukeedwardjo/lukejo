@@ -2,12 +2,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="md:flex">
       <div className="flex-auto"></div>
-      <div className="font-serif h-screen flex-auto w-64 bg-slate-50">
+      <div className="mx-w-md mx-auto font-serif h-screen bg-slate-50">
         Luke Johnson
       </div>
-      <div className="flex-auto"></div>
+      <div className="md:flex-auto"></div>
     </div>
   );
 }
