@@ -15,7 +15,7 @@ function App() {
           <a href="https://lukejo.substack.com/p/coming-soon?showWelcome=true&utm_source=url">
             blog
           </a>
-          &nbsp;&nbsp;|&nbsp; <Link to="/about">about</Link>
+          &nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/about">about</Link>
         </nav>
         <Outlet />
       </div>
