@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="flex items-center justify-center">
       <div className="flex-auto"></div>
-      <div className="font-serif selection:bg-lew-blue selection:text-lew-yellow h-screen w-5/12 shrink-0 mt-24">
+      <div className="flex-none font-serif selection:bg-lew-blue selection:text-lew-yellow h-screen w-full lg:w-5/12 shrink-0 mt-24">
         <div className="text-lew-blue text-5xl flex items-center justify-center font-bold">
           Luke&nbsp;Johnson
         </div>
