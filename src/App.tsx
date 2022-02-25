@@ -7,7 +7,7 @@ function App() {
       <div className="flex-auto"></div>
       <div className="flex-none font-serif selection:bg-lew-blue selection:text-lew-yellow h-screen w-full lg:w-5/12 shrink-0 mt-24">
         <div className="text-lew-blue text-5xl flex items-center justify-center font-bold">
-          Luke&nbsp;Johnson
+          <Link to="/">Luke&nbsp;Johnson</Link>
         </div>
         <nav className="flex items-center justify-center mt-6">
           <a href="https://twitter.com/lukeedwardjo">twitter</a>
