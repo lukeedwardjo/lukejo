@@ -10,7 +10,7 @@ function App() {
           <Link to="/">Luke&nbsp;Johnson</Link>
         </div>
         <nav className="flex items-center justify-center mt-6">
-          <a href="https://twitter.com/lukeedwardjo">twitter</a>
+          <a href="https://github.com/lukeedwardjo">github</a>
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <a href="https://lukejo.substack.com/p/coming-soon?showWelcome=true&utm_source=url">
             blog
