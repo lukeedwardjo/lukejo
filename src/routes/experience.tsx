@@ -22,10 +22,9 @@ export default function Experience() {
         My workflow when writing a new feature in GraphQL begins with evaluating
         what new data the client will need and how that data fits into GraphQL
         schema. For new data, I create TypeScript types of what we expect from
-        the REST APIs and create the methods to fetch the data. Because we use
+        the REST APIs and create the functions to fetch the data. Because we use
         GraphQL Code Generator, I add the TypeScript types to the code-gen.yml
-        file. I then write the resolvers using the methods that fetch the data,
-        and because we use GraphQL code Generator we get a lot of help from
+        file. Because we use GraphQL code Generator we get a lot of help from
         TypeScript when writing the resolvers.
       <br/>
       <br/>
