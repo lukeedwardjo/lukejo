@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import About from "./routes/about";
+import Experience from "./routes/experience";
 
 const rootElement = document.getElementById("root");
 render(
@@ -13,6 +14,7 @@ render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="about" element={<About />} />
+          <Route path="experience" element={<Experience />} />
         </Route>
       </Routes>
     </BrowserRouter>
