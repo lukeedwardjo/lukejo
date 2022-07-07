@@ -1,7 +1,6 @@
 export default function Experience() {
   return (
     <div className="flex items-center justify-center mt-6 ml-6 mr-6">
-      <p>
         I became familiar with Node.js in college but gained most of my
         experience with it working with Apollo Server at my current workplace.
         I've written dozens of features built on top of our GraphQL API since I
@@ -9,8 +8,7 @@ export default function Experience() {
         When starting on this team the GraphQL schema and its resolvers lived in
         the client, but we have since separated our GraphQL onto its own
         servers.
-      </p>
-      <p>
+      <br/>
         Our implementation of GraphQL includes TypeScript, Apollo Server, and
         GraphQL Code Generator (to translate GraphQL types to TypeScript types).
         We use GraphQL because we have many different APIs built with .NET Web
@@ -18,8 +16,7 @@ export default function Experience() {
         predicable behavior. Our only data sources for GraphQL are these REST
         APIs. We use Relay (Facebook's GraphQL client) for state management in
         our web applications.
-      </p>
-      <p>
+      <br/>
         My workflow when writing a new feature in GraphQL begins with evaluating
         what new data the client will need how that data fits into GraphQL
         schema. For new data, I create TypeScript types of what we expect from
@@ -28,12 +25,10 @@ export default function Experience() {
         file. I then write the resolvers using the methods that fetch the data,
         and because we use GraphQL code Generator we get a lot of help from
         TypeScript when writing the resolvers.
-      </p>
-      <p>
+      <br/>
         Overall, I think GraphQL is a very useful tool, especially for
         abstracting the data element and business logic away from the clients
         which only serves to make them more maintainable and nimbler.
-      </p>
     </div>
   );
 }
