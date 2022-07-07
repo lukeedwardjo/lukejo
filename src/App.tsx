@@ -16,7 +16,7 @@ function App() {
             blog
           </a>
           &nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/about">about</Link>
-          &nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/experience">GraphQL Experience</Link>
+          &nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/experience">graphql experience</Link>
         </nav>
         <Outlet />
       </div>
